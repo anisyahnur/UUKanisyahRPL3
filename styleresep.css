@@ -150,7 +150,7 @@ h2,
     .recipe-section,
     .reverse {
         flex-direction: column;
-        text-align: center;c
+        text-align: center;
     }
     .recipe-text h2 {
         font-size: 40px;
