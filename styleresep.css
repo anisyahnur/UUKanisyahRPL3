@@ -55,6 +55,12 @@ h2,
     padding-left: 30px;
 }
 
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
 .judul-resep {
     text-align: center;
     padding: 80px 10% 40px;
@@ -131,19 +137,6 @@ h2,
 .recipe-text button:hover {
     transform: scale(1.05);
     background: #ff824d;
-}
-
-.recipe-image {
-    flex: 1;
-    text-align: center;
-}
-
-.recipe-image img {
-    width: 100%;
-    max-width: 450px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {

@@ -141,19 +141,6 @@ h2,
     background: #ff824d;
 }
 
-.recipe-image {
-    flex: 1;
-    text-align: center;
-}
-
-.recipe-image img {
-    width: 100%;
-    max-width: 450px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
 footer {
     background-color: #ff7f00;
     color: white;
