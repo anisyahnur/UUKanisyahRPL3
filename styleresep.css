@@ -92,10 +92,6 @@ h2,
     overflow: hidden;
 }
 
-.reverse {
-    flex-direction: row-reverse;
-}
-
 .recipe-text {
     flex: 1;
     color: white;
@@ -126,7 +122,7 @@ h2,
     padding: 15px 35px;
     border: none;
     border-radius: 50px;
-    background: #ff6b2c;
+    background: #cb693e;
     color: white;
     font-size: 17px;
     font-weight: bold;
@@ -134,9 +130,14 @@ h2,
     transition: 0.3s;
 }
 
-.recipe-text button:hover {
-    transform: scale(1.05);
-    background: #ff824d;
+.btn-detail {
+    display: inline-block;
+    padding: 6px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #dc3545;
+    border-radius: 4px;
 }
 
 @media (max-width: 768px) {
@@ -151,19 +152,4 @@ h2,
     .judul-resep h1 {
         font-size: 40px;
     }
-}
-
-.btn-detail {
-    display: inline-block;
-    padding: 8px 20px;
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: uppercase;
-    color:white;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    cursor: pointer;
 }

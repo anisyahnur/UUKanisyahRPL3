@@ -102,13 +102,11 @@ h2,
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    border: 1px solid black;
 }
 
 .food-image {
     position: relative;
     height: 200px;
-    background-color: #ffffff;
 }
 
 .food-image img {
@@ -123,7 +121,7 @@ h2,
 
 .food-info h3 {
     margin: 0 0 10px 0;
-    color: black;
+    color: rgb(14, 9, 9);
     font-weight: bold;
 }
 

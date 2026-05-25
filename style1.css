@@ -136,11 +136,6 @@ h2,
     transition: 0.3s;
 }
 
-.recipe-text button:hover {
-    transform: scale(1.05);
-    background: #ff824d;
-}
-
 footer {
     background-color: #ff7f00;
     color: white;
